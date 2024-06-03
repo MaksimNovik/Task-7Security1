@@ -8,7 +8,7 @@ import ru.itmentor.spring.boot_security.demo.service.UserService;
 
 import java.util.List;
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/admin/api")
 public class UserRestController {
     private final UserService service;
 
